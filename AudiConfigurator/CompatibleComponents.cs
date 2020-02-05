@@ -6,7 +6,5 @@ namespace AudiConfigurator
     {
         private Car car;
         public List<IComponent> Options { get; set; }
-       
-
     }
 }
