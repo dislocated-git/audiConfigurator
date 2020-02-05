@@ -8,13 +8,13 @@ namespace AudiConfigurator
 
         public Trim Trim { get; set; }
 
-        public IComponent GetComponentByType(IComponent component)
+        public IComponent GetComponentByType(System.Type type)
         {
-            for (int i = 0; i < components.Count; i++)
+            foreach (IComponent component in components)
             {
-                if (components[i].GetType() == component.GetType())
+                if (component.GetType() == type)
                 {
-                    return components[i];
+                    return component;
                 }
             }
 
