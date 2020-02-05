@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AudiConfigurator
 {
-    class Trim
+    public class Trim
     {
         public int ID { get; }
         public string Name { get; }

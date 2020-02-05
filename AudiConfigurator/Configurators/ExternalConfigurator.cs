@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AudiConfigurator
 {
-    class ExternalConfigurator
+    public class ExternalConfigurator
     {
         public List<CompatibleComponents> CompatibleComponents { get; }
         private Car car;

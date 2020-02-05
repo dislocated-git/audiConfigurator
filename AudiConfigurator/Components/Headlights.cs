@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AudiConfigurator
 {
-    class Headlights
+    public class Headlights: IComponent
     {
         
     }
