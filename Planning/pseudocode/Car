@@ -1,0 +1,10 @@
+Car = Class
+    Public
+        Function GetPrice
+        Function GetComponents
+        Procedure SetComponents
+
+    Private
+        trim: Trim
+        Components: List<IComponent>
+    End

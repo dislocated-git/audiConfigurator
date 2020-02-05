@@ -1,0 +1,11 @@
+Trim = Class
+    Public
+        Function GetId
+        Function GetName
+    
+    Private
+        id: Int
+        name: String
+    End
+
+

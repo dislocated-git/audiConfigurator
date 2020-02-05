@@ -1,0 +1,7 @@
+ExternalConfigurator = Class
+    Public
+        Function GetCompatibleComponents
+    Private
+            Car: Car
+            compatibleComponents: List<CompatibleComponents>
+    End

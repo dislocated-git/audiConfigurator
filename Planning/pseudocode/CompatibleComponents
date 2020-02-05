@@ -1,0 +1,11 @@
+CompatibleComponents = class
+    Public
+        Function GetOptions
+        Function GetSelectedComponent
+        Procedure SetSelectedComponent
+        
+    Private
+        sectionName: String
+        options: List<IComponent>
+        car: Car
+    End

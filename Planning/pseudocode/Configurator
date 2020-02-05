@@ -1,0 +1,8 @@
+Configurator = class
+
+    Private
+        Car: Car
+        ExternalConfigurator: ExternalConfigurator
+        InternalConfigurator: InternalConfigurator
+        EngineConfigurartor: EngineConfigurartor
+    End

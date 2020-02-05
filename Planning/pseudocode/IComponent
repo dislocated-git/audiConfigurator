@@ -1,0 +1,11 @@
+IComponent = Interface
+    Public
+        Function GetName
+        Function GetID
+        Function GetPrice
+
+    Private
+        name: String
+        ID: Integer
+        Price: Decimal
+    End
