@@ -17,7 +17,7 @@ namespace AudiConfigurator
             foreach (IComponent component in car.components)
             {
                 Type type = component.GetType();
-                CompatibleComponents.Add(new CompatibleComponents(Car, component.GetType()));
+                CompatibleComponents.Add(new CompatibleComponents(car, component.GetType()));
             }
 
             this.car = car;
