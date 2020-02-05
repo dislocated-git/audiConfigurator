@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace AudiConfigurator
 {
-    interface IComponent
+    class ExternalConfigurator
     {
-        public String Name { get; };
-        public int ID { get; };
-        public int Price { get; }
+        public List<CompatibleComponents> CompatibleComponents { get; }
+        private Car car;
     }
 }

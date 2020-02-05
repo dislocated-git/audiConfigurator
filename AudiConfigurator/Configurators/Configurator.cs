@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace AudiConfigurator
 {
-    class ExternalConfigurator
+    class Configurator
     {
+        public ExternalConfigurator ExternalConfigurator { get; }
+
+        
     }
 }

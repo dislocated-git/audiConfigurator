@@ -8,9 +8,8 @@ namespace AudiConfigurator
 {
     class Trim
     {
-
-        private int id;
-        private string name;
+        public int ID { get; }
+        public string Name { get; }
 
     }
 }

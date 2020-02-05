@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,10 +45,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
-    <Compile Include="Configurator.cs" />
-    <Compile Include="ExternalConfigurator.cs" />
-    <Compile Include="Headlights.cs" />
-    <Compile Include="IComponent.cs" />
+    <Compile Include="CompatibleComponents.cs" />
+    <Compile Include="Configurators\Configurator.cs" />
+    <Compile Include="Configurators\ExternalConfigurator.cs" />
+    <Compile Include="Components\Headlights.cs" />
+    <Compile Include="Interfaces\IComponent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Trim.cs" />
